@@ -1,2 +1,0 @@
-# MyMarket
-Testcoding for codesmells :-)
