@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="true" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="supermarket.model.ReceiptItem" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/ReceiptItem.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="231" x="1778" y="670"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="supermarket.model.offer.XForYOffer" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/offer/XForYOffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="185" x="267" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="supermarket.printer.AbstractReceiptPrinter" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/printer/AbstractReceiptPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="197" x="1854" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="4" language="java" name="supermarket.model.product.ProductUnit" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/product/ProductUnit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="124" x="1394" y="1164"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="5" language="java" name="supermarket.model.offer.ISpecialOfferConditions" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/offer/ISpecialOfferConditions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="185" x="494" y="670"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="6" language="java" name="supermarket.model.product.Product" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/product/Product.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="157" x="1394" y="953"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="supermarket.model.Discount" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/Discount.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="179" x="1559" y="670"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="supermarket.model.product.ProductQuantity" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/product/ProductQuantity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="183" x="1315" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="supermarket.model.offer.PercentDiscountOffer" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/offer/PercentDiscountOffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="185" x="42" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="supermarket.model.ISupermarketCatalog" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/ISupermarketCatalog.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="184" x="1091" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="supermarket.model.offer.Offer" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/offer/Offer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="213" x="534" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="supermarket.printer.ReceiptPaperPrinter" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/printer/ReceiptPaperPrinter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="158" x="1855" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="supermarket.model.Receipt" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/Receipt.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="254" x="1559" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="14" language="java" name="supermarket.model.offer.SpecialOfferType" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/offer/SpecialOfferType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="195" x="494" y="953"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="15" language="java" name="supermarket.model.ShoppingCart" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/ShoppingCart.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="360" x="829" y="194"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="supermarket.model.offer.XForAmountOffer" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/model/offer/XForAmountOffer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="222" x="808" y="441"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="supermarket.MyMarketApp" project="MarketSoftware" 
+    file="/MarketSoftware/src/supermarket/MyMarketApp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="324" x="1210" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="18">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="19" name="product"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="21">    
+    <bendpoint x="1715" y="194"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="22">    
+    <bendpoint x="1060" y="441"/>    
+    <bendpoint x="1060" y="670"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="23">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="24" name="items"/>      
+      <multiplicity id="25" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="26">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="27">    
+    <bendpoint x="1528" y="194"/>    
+    <bendpoint x="1528" y="441"/>    
+    <bendpoint x="1507" y="670"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="28">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="29" name="unit"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="31">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="32" name="discounts"/>      
+      <multiplicity id="33" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="34">    
+    <bendpoint x="1549" y="194"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="35">    
+    <bendpoint x="2039" y="441"/>    
+    <bendpoint x="2039" y="670"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="36">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="37">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="38">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="39" name="itemList"/>      
+      <multiplicity id="40" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="41">    
+    <bendpoint x="389" y="670"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="42">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="43">    
+    <bendpoint x="798" y="670"/>    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="44" name="product"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="46">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="47">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <dependency id="48">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="49">    
+    <bendpoint x="777" y="441"/>    
+    <bendpoint x="777" y="670"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="50">    
+    <bendpoint x="277" y="670"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="51">    
+    <bendpoint x="503" y="441"/>    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="52">    
+    <bendpoint x="819" y="670"/>    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="53">    
+    <bendpoint x="1528" y="670"/>    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="54">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="55" name="product"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="57">    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <association id="58">    
+    <bendpoint x="1363" y="670"/>    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="59" name="product"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <bendpoint x="798" y="194"/>    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="62" name="offers"/>      
+      <multiplicity id="63" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="64">    
+    <bendpoint x="1864" y="441"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="65">    
+    <bendpoint x="482" y="194"/>    
+    <bendpoint x="482" y="441"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="66">    
+    <bendpoint x="2060" y="194"/>    
+    <bendpoint x="2060" y="441"/>    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="67">    
+    <bendpoint x="1251" y="670"/>    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <association id="68">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="69" name="offerConditions"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="71">    
+    <bendpoint x="1843" y="441"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="72">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="73">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <dependency id="74">    
+    <bendpoint x="1271" y="194"/>    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="75">    
+    <bendpoint x="1219" y="194"/>    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="76" name="catalog"/>      
+      <multiplicity id="77" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
